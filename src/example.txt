@@ -1,0 +1,20 @@
+GET https://httpbin.org/anything?q=httpyac&ie=UTF-8 HTTP/1.1
+
+
+
+
+
+request-line {
+  method  : Method
+  target  : string
+  version : float
+}
+
+enum Method {
+  GET
+  POST
+  PUT
+  DELETE
+  PATCH
+  OPTIONS
+}
