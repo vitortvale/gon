@@ -4,3 +4,7 @@ build:
 run:
 	 ./target/release/gon
 
+test:
+	 ./target/release/gon ./src/tests/requests.http
+
+
